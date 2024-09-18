@@ -98,8 +98,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'OPTIONS': {
             'service': 'mydbservice',
-            # 'passfile': os.getenv("PGPASSFILE"),
-            'passfile': "C:\\Users\\clzt9\\AppData\\Roaming\\postgresql\\.my_pgpass",
         },
     }
 }
