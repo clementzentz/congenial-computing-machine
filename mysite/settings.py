@@ -93,6 +93,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #     }
 # }
 
+# TODO utiliser le venv pour les variables d'environnements
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
